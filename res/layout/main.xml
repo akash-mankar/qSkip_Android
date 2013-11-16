@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clickable="false">
+    <ImageView
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/welcome"
+            android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    <Button
+            android:layout_width="118dp"
+            android:layout_height="64dp"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="174dp" android:clickable="true"
+            android:onClick="login"/>
+    <EditText
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="No more queues for that coffee!"
+            android:id="@+id/editText"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="8dp"
+            android:layout_below="@+id/imageView" android:layout_alignRight="@+id/imageView"/>
+</RelativeLayout>
